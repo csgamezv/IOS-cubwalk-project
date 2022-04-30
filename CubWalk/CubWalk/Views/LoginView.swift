@@ -14,7 +14,11 @@ struct LoginView: View {
     var body: some View {
         VStack{
             Image("CubWalkTitle")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 300.0, height: 60.0)
                 .padding(.top,200)
+            
             Text("Login").font(.title2).padding(.top,50)
             
             HStack{

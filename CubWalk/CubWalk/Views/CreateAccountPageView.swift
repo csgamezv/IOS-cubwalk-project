@@ -18,7 +18,10 @@ struct CreateAccountPageView: View {
         VStack{
             Group{
             Image("CubWalkTitle")
-                .padding(.top,30)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300.0, height: 60.0)
+                    .padding(.top,50)
             Text("Create Account").font(.title2).padding(.top,50)
             
             HStack{
@@ -101,7 +104,7 @@ struct CreateAccountPageView: View {
                         .stroke(Color.black, lineWidth: 1)
             )
             
-            Button(action: checkCredentials) {
+            Button(action: createAccount) {
                 Text("Start").foregroundColor(.black)
             }.buttonStyle(.bordered).padding()
             
@@ -116,7 +119,9 @@ struct CreateAccountPageView: View {
         }
     }
 }
-
+func createAccount(){
+    //
+}
 struct CreateAccountPageView_Previews: PreviewProvider {
     static var previews: some View {
         CreateAccountPageView()
