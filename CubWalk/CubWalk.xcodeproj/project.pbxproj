@@ -18,6 +18,7 @@
 		901D3FC5281CB82C006226A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC4281CB82C006226A2 /* HomeView.swift */; };
 		901D3FC7281D1570006226A2 /* CreateAccountPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */; };
 		901D3FC9281D1BE8006226A2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC8281D1BE7006226A2 /* MapView.swift */; };
+		901D3FCB281DEAF8006226A2 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FCA281DEAF8006226A2 /* TopMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		901D3FC4281CB82C006226A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPageView.swift; sourceTree = "<group>"; };
 		901D3FC8281D1BE7006226A2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		901D3FCA281DEAF8006226A2 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */,
 				901D3FC4281CB82C006226A2 /* HomeView.swift */,
 				901D3FC8281D1BE7006226A2 /* MapView.swift */,
+				901D3FCA281DEAF8006226A2 /* TopMenuView.swift */,
 				901D3FBE281CB79E006226A2 /* ChatListView.swift */,
 				901D3FC0281CB7AC006226A2 /* ChatView.swift */,
 				901D3FC2281CB7BC006226A2 /* UserPageView.swift */,
@@ -169,6 +172,7 @@
 				901D3FBF281CB79E006226A2 /* ChatListView.swift in Sources */,
 				901D3FC5281CB82C006226A2 /* HomeView.swift in Sources */,
 				901D3FBD281CA44F006226A2 /* LoginView.swift in Sources */,
+				901D3FCB281DEAF8006226A2 /* TopMenuView.swift in Sources */,
 				901D3FC1281CB7AC006226A2 /* ChatView.swift in Sources */,
 				901D3FB0281B6084006226A2 /* ContentView.swift in Sources */,
 				901D3FC3281CB7BC006226A2 /* UserPageView.swift in Sources */,
