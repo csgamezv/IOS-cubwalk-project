@@ -25,11 +25,11 @@ struct LoginView: View {
             TextField(
                 "Required",
                 text: $username)
-            .frame(width: 240.0,height: 30)
+            .frame(width: 240.0,height: 35)
             .padding(.leading,10)
             .overlay(
                     RoundedRectangle(cornerRadius: 9)
-                        .stroke(Color.black, lineWidth: 2)
+                        .stroke(Color.black, lineWidth: 1)
                 )
             
                 
@@ -43,11 +43,11 @@ struct LoginView: View {
             TextField(
                 "Required",
                 text: $password)
-            .frame(width: 240.0,height: 30)
+            .frame(width: 240.0,height: 35)
             .padding(.leading,10)
             .overlay(
                     RoundedRectangle(cornerRadius: 9)
-                        .stroke(Color.black, lineWidth: 2)
+                        .stroke(Color.black, lineWidth: 1)
                 )
             Button(action: checkCredentials) {
                 Text("Log in").foregroundColor(.black)
