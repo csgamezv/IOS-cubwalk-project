@@ -17,8 +17,10 @@
 		901D3FC3281CB7BC006226A2 /* UserPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC2281CB7BC006226A2 /* UserPageView.swift */; };
 		901D3FC5281CB82C006226A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC4281CB82C006226A2 /* HomeView.swift */; };
 		901D3FC7281D1570006226A2 /* CreateAccountPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */; };
-		901D3FC9281D1BE8006226A2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC8281D1BE7006226A2 /* MapView.swift */; };
+		901D3FC9281D1BE8006226A2 /* MapWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FC8281D1BE7006226A2 /* MapWindowView.swift */; };
 		901D3FCB281DEAF8006226A2 /* TopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FCA281DEAF8006226A2 /* TopMenuView.swift */; };
+		901D3FD0281F9564006226A2 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FCF281F9564006226A2 /* MapViewModel.swift */; };
+		901D3FD2281F9597006226A2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FD1281F9597006226A2 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +35,11 @@
 		901D3FC2281CB7BC006226A2 /* UserPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageView.swift; sourceTree = "<group>"; };
 		901D3FC4281CB82C006226A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPageView.swift; sourceTree = "<group>"; };
-		901D3FC8281D1BE7006226A2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		901D3FC8281D1BE7006226A2 /* MapWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWindowView.swift; sourceTree = "<group>"; };
 		901D3FCA281DEAF8006226A2 /* TopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuView.swift; sourceTree = "<group>"; };
+		901D3FCF281F9564006226A2 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		901D3FD1281F9597006226A2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		901D3FDB28207073006226A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +72,12 @@
 		901D3FAC281B6084006226A2 /* CubWalk */ = {
 			isa = PBXGroup;
 			children = (
+				901D3FDB28207073006226A2 /* Info.plist */,
 				901D3FAD281B6084006226A2 /* CubWalkApp.swift */,
 				901D3FAF281B6084006226A2 /* ContentView.swift */,
-				901D3FBB281CA41D006226A2 /* Views */,
+				901D3FBB281CA41D006226A2 /* View */,
+				901D3FCE281F9542006226A2 /* ViewModel */,
+				901D3FD3281F9AE3006226A2 /* IOS */,
 				901D3FB1281B608C006226A2 /* Assets.xcassets */,
 				901D3FB3281B608C006226A2 /* Preview Content */,
 			);
@@ -79,24 +87,48 @@
 		901D3FB3281B608C006226A2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				901D3FCD281F9531006226A2 /* New Group */,
 				901D3FB4281B608C006226A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		901D3FBB281CA41D006226A2 /* Views */ = {
+		901D3FBB281CA41D006226A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				901D3FBC281CA44F006226A2 /* LoginView.swift */,
 				901D3FC6281D1570006226A2 /* CreateAccountPageView.swift */,
 				901D3FC4281CB82C006226A2 /* HomeView.swift */,
-				901D3FC8281D1BE7006226A2 /* MapView.swift */,
+				901D3FC8281D1BE7006226A2 /* MapWindowView.swift */,
 				901D3FCA281DEAF8006226A2 /* TopMenuView.swift */,
 				901D3FBE281CB79E006226A2 /* ChatListView.swift */,
 				901D3FC0281CB7AC006226A2 /* ChatView.swift */,
 				901D3FC2281CB7BC006226A2 /* UserPageView.swift */,
+				901D3FD1281F9597006226A2 /* MapView.swift */,
 			);
-			path = Views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		901D3FCD281F9531006226A2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		901D3FCE281F9542006226A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				901D3FCF281F9564006226A2 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		901D3FD3281F9AE3006226A2 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,14 +202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				901D3FBF281CB79E006226A2 /* ChatListView.swift in Sources */,
+				901D3FD2281F9597006226A2 /* MapView.swift in Sources */,
 				901D3FC5281CB82C006226A2 /* HomeView.swift in Sources */,
 				901D3FBD281CA44F006226A2 /* LoginView.swift in Sources */,
 				901D3FCB281DEAF8006226A2 /* TopMenuView.swift in Sources */,
 				901D3FC1281CB7AC006226A2 /* ChatView.swift in Sources */,
 				901D3FB0281B6084006226A2 /* ContentView.swift in Sources */,
+				901D3FD0281F9564006226A2 /* MapViewModel.swift in Sources */,
 				901D3FC3281CB7BC006226A2 /* UserPageView.swift in Sources */,
 				901D3FAE281B6084006226A2 /* CubWalkApp.swift in Sources */,
-				901D3FC9281D1BE8006226A2 /* MapView.swift in Sources */,
+				901D3FC9281D1BE8006226A2 /* MapWindowView.swift in Sources */,
 				901D3FC7281D1570006226A2 /* CreateAccountPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +344,8 @@
 				DEVELOPMENT_TEAM = VHNNM6XPP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CubWalk/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +375,8 @@
 				DEVELOPMENT_TEAM = VHNNM6XPP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CubWalk/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
