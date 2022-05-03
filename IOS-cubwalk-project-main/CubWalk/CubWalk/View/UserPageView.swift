@@ -1,5 +1,5 @@
 //
-//  ChatView.swift
+//  UserPageView.swift
 //  CubWalk
 //
 //  Created by Cesar Gamez on 4/29/22.
@@ -8,15 +8,15 @@
 import Foundation
 import SwiftUI
 
-struct ChatView: View {
+struct UserPageView: View {
     var body: some View {
         //
         Text("HI")
     }
 }
 
-struct ChatView_Previews: PreviewProvider {
+struct UserPageView_Previews: PreviewProvider {
     static var previews: some View {
-        ChatView()
+        UserPageView()
     }
 }
