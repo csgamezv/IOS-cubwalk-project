@@ -20,10 +20,10 @@
 		901D3FD0281F9564006226A2 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FCF281F9564006226A2 /* MapViewModel.swift */; };
 		901D3FD2281F9597006226A2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FD1281F9597006226A2 /* MapView.swift */; };
 		901D3FDE2820967B006226A2 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D3FDD2820967B006226A2 /* Place.swift */; };
-		90EC69DF2821CE7B0011A6B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC69DE2821CE7B0011A6B7 /* Message.swift */; };
-		90EC69E12821CE9B0011A6B7 /* ChatView in Resources */ = {isa = PBXBuildFile; fileRef = 90EC69E02821CE9B0011A6B7 /* ChatView */; };
+		90471E502821D52E008634AD /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90471E4F2821D52D008634AD /* Extentions.swift */; };
+		90471E522821D537008634AD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90471E512821D537008634AD /* Message.swift */; };
+		90471E542821D54B008634AD /* ChatView in Resources */ = {isa = PBXBuildFile; fileRef = 90471E532821D54B008634AD /* ChatView */; };
 		90EC69E32821CEC80011A6B7 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC69E22821CEC80011A6B7 /* MessageManager.swift */; };
-		90EC69E72821CEE40011A6B7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC69E62821CEE40011A6B7 /* Extentions.swift */; };
 		90EC69EA2821CF660011A6B7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 90EC69E92821CF660011A6B7 /* FirebaseFirestore */; };
 		90EC69EC2821CF660011A6B7 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 90EC69EB2821CF660011A6B7 /* FirebaseFirestoreSwift-Beta */; };
 		90EC69EE2821D0630011A6B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90EC69ED2821D0620011A6B7 /* GoogleService-Info.plist */; };
@@ -45,11 +45,11 @@
 		901D3FD1281F9597006226A2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		901D3FDB28207073006226A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		901D3FDD2820967B006226A2 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		90471E4F2821D52D008634AD /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extentions.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/IOS-cubwalk-project-main/CubWalk/CubWalk/Extentions.swift"; sourceTree = "<group>"; };
+		90471E512821D537008634AD /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/IOS-cubwalk-project-main/CubWalk/CubWalk/Model/Message.swift"; sourceTree = "<group>"; };
+		90471E532821D54B008634AD /* ChatView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ChatView; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/IOS-cubwalk-project-main/CubWalk/CubWalk/View/ChatView"; sourceTree = "<group>"; };
 		9086B34A2821249D00D80A76 /* BerkeleyLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BerkeleyLocation.gpx; path = CubWalk/BerkeleyLocation.gpx; sourceTree = SOURCE_ROOT; };
-		90EC69DE2821CE7B0011A6B7 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "../../../IOS-cubwalk-project-main/CubWalk/CubWalk/Model/Message.swift"; sourceTree = "<group>"; };
-		90EC69E02821CE9B0011A6B7 /* ChatView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ChatView; path = "../../../IOS-cubwalk-project-main/CubWalk/CubWalk/View/ChatView"; sourceTree = "<group>"; };
 		90EC69E22821CEC80011A6B7 /* MessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
-		90EC69E62821CEE40011A6B7 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extentions.swift; path = "../../IOS-cubwalk-project-main/CubWalk/CubWalk/Extentions.swift"; sourceTree = "<group>"; };
 		90EC69ED2821D0620011A6B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "CubWalk/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 				90EC69E22821CEC80011A6B7 /* MessageManager.swift */,
 				901D3FDC2820966D006226A2 /* Model */,
 				9086B34A2821249D00D80A76 /* BerkeleyLocation.gpx */,
-				90EC69E62821CEE40011A6B7 /* Extentions.swift */,
+				90471E4F2821D52D008634AD /* Extentions.swift */,
 				901D3FB1281B608C006226A2 /* Assets.xcassets */,
 				90EC69ED2821D0620011A6B7 /* GoogleService-Info.plist */,
 				901D3FB3281B608C006226A2 /* Preview Content */,
@@ -118,7 +118,7 @@
 				901D3FC4281CB82C006226A2 /* HomeView.swift */,
 				901D3FC8281D1BE7006226A2 /* MapWindowView.swift */,
 				901D3FCA281DEAF8006226A2 /* TopMenuView.swift */,
-				90EC69E02821CE9B0011A6B7 /* ChatView */,
+				90471E532821D54B008634AD /* ChatView */,
 				901D3FC2281CB7BC006226A2 /* UserPageView.swift */,
 				901D3FD1281F9597006226A2 /* MapView.swift */,
 			);
@@ -143,7 +143,7 @@
 		901D3FDC2820966D006226A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				90EC69DE2821CE7B0011A6B7 /* Message.swift */,
+				90471E512821D537008634AD /* Message.swift */,
 				901D3FDD2820967B006226A2 /* Place.swift */,
 			);
 			path = Model;
@@ -216,7 +216,7 @@
 			files = (
 				901D3FB5281B608C006226A2 /* Preview Assets.xcassets in Resources */,
 				90EC69EE2821D0630011A6B7 /* GoogleService-Info.plist in Resources */,
-				90EC69E12821CE9B0011A6B7 /* ChatView in Resources */,
+				90471E542821D54B008634AD /* ChatView in Resources */,
 				901D3FB2281B608C006226A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,18 +230,18 @@
 			files = (
 				901D3FD2281F9597006226A2 /* MapView.swift in Sources */,
 				901D3FC5281CB82C006226A2 /* HomeView.swift in Sources */,
+				90471E502821D52E008634AD /* Extentions.swift in Sources */,
 				901D3FBD281CA44F006226A2 /* LoginView.swift in Sources */,
 				901D3FCB281DEAF8006226A2 /* TopMenuView.swift in Sources */,
 				901D3FB0281B6084006226A2 /* ContentView.swift in Sources */,
 				901D3FD0281F9564006226A2 /* MapViewModel.swift in Sources */,
-				90EC69E72821CEE40011A6B7 /* Extentions.swift in Sources */,
 				90EC69E32821CEC80011A6B7 /* MessageManager.swift in Sources */,
 				901D3FC3281CB7BC006226A2 /* UserPageView.swift in Sources */,
 				901D3FAE281B6084006226A2 /* CubWalkApp.swift in Sources */,
 				901D3FDE2820967B006226A2 /* Place.swift in Sources */,
 				901D3FC9281D1BE8006226A2 /* MapWindowView.swift in Sources */,
+				90471E522821D537008634AD /* Message.swift in Sources */,
 				901D3FC7281D1570006226A2 /* CreateAccountPageView.swift in Sources */,
-				90EC69DF2821CE7B0011A6B7 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
